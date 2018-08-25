@@ -11,9 +11,12 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/context-io/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Context.IO
-  x-api-slug: context-io
-  description: context-io-is-the-missing-email-api-that-makes-it-easy-and-fast-to-integrate-your-users-email-data-in-your-application-
+- name: Context.IO - Post Accounts Messages Message
+  x-api-slug: accountsidmessagesmessage-id-post
+  description: Copies or moves a message. Allows you to copy or move a message between
+    folders. If there are more than one sources on the account, you can use this call
+    to copy/move the message between these sources. In this case, the dst_label parameter
+    must identify the source you want to message to be copied/moved to.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
@@ -24,9 +27,12 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/context-io/accountsidmessagesmessage-id-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/context-io/accountsidmessagesmessage-id-post-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: context-io-is-the-missing-email-api-that-makes-it-easy-and-fast-to-integrate-your-users-email-data-in-your-application-
+- name: Context.IO - Post Accounts Messages Message
+  x-api-slug: accountsidmessagesmessage-id-post
+  description: Copies or moves a message. Allows you to copy or move a message between
+    folders. If there are more than one sources on the account, you can use this call
+    to copy/move the message between these sources. In this case, the dst_label parameter
+    must identify the source you want to message to be copied/moved to.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
@@ -37,19 +43,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/context-io/accountsidmessagesmessage-id-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/context-io/accountsidmessagesmessage-id-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/context-io/accountsidmessagesmessage-id-post-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: Context.IO is the missing email API that makes it easy and fastto integrate
-    your users email data in your application.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
-  humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0/
-  tags: Allows
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/context-io/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://constant.contact.api.gallery.streamdata.io

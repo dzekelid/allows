@@ -16,9 +16,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/slack/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Slack
-  x-api-slug: slack
-  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
+- name: Slack - Request App Permissions
+  x-api-slug: apps-permissions-request-get
+  description: Allows an app to request additional scopes
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
   baseURL: https://slack.com//api
@@ -30,9 +30,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/slack/apps-permissions-request-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/slack/apps-permissions-request-get-openapi.md
-- name: Slack
-  x-api-slug: slack
-  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
+- name: Slack - Request App Permissions
+  x-api-slug: apps-permissions-request-get
+  description: Allows an app to request additional scopes
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
   baseURL: https://slack.com//api
@@ -44,23 +44,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/slack/apps-permissions-request-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/slack/apps-permissions-request-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/slack/apps-permissions-request-get-openapi.md
-- name: Slack
-  x-api-slug: slack
-  description: Slack is a team communication application providing services such as
-    real-time messaging, archiving, and to search for modern teams. It offers one-on-one
-    messaging, private groups, persistent chat rooms, and direct messaging as well
-    as group chats organized by topic. All content inside Slack is searchable from
-    one search box and it integrates with a number of third-party services, including
-    Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
-  humanURL: https://api.slack.com
-  baseURL: https://slack.com//api
-  tags: Allows
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/slack/openapi.md
 x-common:
 - type: x-website
   url: https://api.slack.com

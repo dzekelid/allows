@@ -20,9 +20,10 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Simple Notification Service API
-  x-api-slug: aws-simple-notification-service-api
-  description: ""
+- name: AWS Simple Notification Service API - Set Subscription Attributes
+  x-api-slug: actionsetsubscriptionattributes-get
+  description: Allows a subscription owner to set an attribute of the topic to a new
+    value.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
   baseURL: :///
@@ -34,9 +35,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-openapi.md
-- name: AWS Simple Notification Service API
-  x-api-slug: aws-simple-notification-service-api
-  description: ""
+- name: AWS Simple Notification Service API - Set Subscription Attributes
+  x-api-slug: actionsetsubscriptionattributes-get
+  description: Allows a subscription owner to set an attribute of the topic to a new
+    value.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
   baseURL: :///
@@ -48,65 +50,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsettopicattributes-get-openapi.md
-- name: AWS Simple Notification Service API
-  x-api-slug: aws-simple-notification-service-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
-  humanURL: https://aws.amazon.com/sns/
-  baseURL: :///
-  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
-    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsettopicattributes-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-openapi.md
-- name: AWS Simple Notification Service API
-  x-api-slug: aws-simple-notification-service-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
-  humanURL: https://aws.amazon.com/sns/
-  baseURL: :///
-  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
-    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsettopicattributes-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/actionsettopicattributes-get-openapi.md
-- name: AWS Simple Notification Service API
-  x-api-slug: aws-simple-notification-service-api
-  description: Amazon Simple Notification Service (Amazon SNS) is a fast, flexible,
-    fully managed push notification service that lets you send individual messages
-    or to fan-out messages to large numbers of recipients. Amazon SNS makes it simple
-    and cost effective to send push notifications to mobile device users, email recipients
-    or even send messages to other distributed services.With Amazon SNS, you can send
-    notifications to Apple, Google, Fire OS, and Windows devices, as well as to Android
-    devices in China with Baidu Cloud Push. You can use SNS to send SMS messages to
-    mobile device users worldwide.Beyond these endpoints, Amazon SNS can also deliver
-    messages toAmazon Simple Queue Service(SQS),AWS Lambda functions, or to any HTTP
-    endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
-  humanURL: https://aws.amazon.com/sns/
-  baseURL: :///
-  tags: Allows
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-simple-notification-service/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.simple.email.service.api.gallery.streamdata.io

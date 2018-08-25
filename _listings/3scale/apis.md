@@ -12,9 +12,12 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/apis.md
 specificationVersion: "0.14"
 apis:
-- name: 3scale
-  x-api-slug: 3scale
-  description: this-project-serves-as-the-jsonrest-api-consumed-by-clients-of-the-charcoal-platform-the-api-itself-relies-heavily-on-userclient-authentication-where-every-request-needs-to-have-the-appropriate-information-to-attribute-it-to-a-client-and-requests-acting-on-behalf-of-a-user-e-g-updating-their-email-needs-to-have-a-userclient-token-created-by-the-user-to-authorize-that-client-to-communicate-for-them-some-endpoints-are-completely-restricted-to-admin-only-which-means-only-users-mapped-to-the-admin-role-who-are-communicating-with-a-system-client-may-continue-
+- name: Charcoal API - POST client admin
+  x-api-slug: hostnameclientadmins-post
+  description: |-
+    Allows users to add another user to the client's list of admins. It is assumed that when posting to this route that the current client (based on `x-client-auth`) is the client of which the user is adding a client admin.
+
+    (unless the user is a system admin)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
   humanURL: http://3scale.net
   baseURL: https://http://
@@ -25,26 +28,26 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins-post-openapi.md
-- name: 3scale
-  x-api-slug: 3scale
-  description: this-project-serves-as-the-jsonrest-api-consumed-by-clients-of-the-charcoal-platform-the-api-itself-relies-heavily-on-userclient-authentication-where-every-request-needs-to-have-the-appropriate-information-to-attribute-it-to-a-client-and-requests-acting-on-behalf-of-a-user-e-g-updating-their-email-needs-to-have-a-userclient-token-created-by-the-user-to-authorize-that-client-to-communicate-for-them-some-endpoints-are-completely-restricted-to-admin-only-which-means-only-users-mapped-to-the-admin-role-who-are-communicating-with-a-system-client-may-continue-
+- name: Charcoal API - DELETE client admin
+  x-api-slug: hostnameclientadmins5-delete
+  description: Allows users to delete a mapping from user to client that represents
+    the user being a client admin.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
   humanURL: http://3scale.net
   baseURL: https://http://
   tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
     Enterprise, API Service Provider, Profiles, Portals
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins5-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins5-delete-openapi.md
-- name: 3scale
-  x-api-slug: 3scale
-  description: this-project-serves-as-the-jsonrest-api-consumed-by-clients-of-the-charcoal-platform-the-api-itself-relies-heavily-on-userclient-authentication-where-every-request-needs-to-have-the-appropriate-information-to-attribute-it-to-a-client-and-requests-acting-on-behalf-of-a-user-e-g-updating-their-email-needs-to-have-a-userclient-token-created-by-the-user-to-authorize-that-client-to-communicate-for-them-some-endpoints-are-completely-restricted-to-admin-only-which-means-only-users-mapped-to-the-admin-role-who-are-communicating-with-a-system-client-may-continue-
+- name: Charcoal API - POST client admin
+  x-api-slug: hostnameclientadmins-post
+  description: |-
+    Allows users to add another user to the client's list of admins. It is assumed that when posting to this route that the current client (based on `x-client-auth`) is the client of which the user is adding a client admin.
+
+    (unless the user is a system admin)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
   humanURL: http://3scale.net
   baseURL: https://http://
@@ -55,15 +58,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins5-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins5-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins-post-openapi.md
-- name: 3scale
-  x-api-slug: 3scale
-  description: this-project-serves-as-the-jsonrest-api-consumed-by-clients-of-the-charcoal-platform-the-api-itself-relies-heavily-on-userclient-authentication-where-every-request-needs-to-have-the-appropriate-information-to-attribute-it-to-a-client-and-requests-acting-on-behalf-of-a-user-e-g-updating-their-email-needs-to-have-a-userclient-token-created-by-the-user-to-authorize-that-client-to-communicate-for-them-some-endpoints-are-completely-restricted-to-admin-only-which-means-only-users-mapped-to-the-admin-role-who-are-communicating-with-a-system-client-may-continue-
+- name: Charcoal API - DELETE client admin
+  x-api-slug: hostnameclientadmins5-delete
+  description: Allows users to delete a mapping from user to client that represents
+    the user being a client admin.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
   humanURL: http://3scale.net
   baseURL: https://http://
@@ -71,72 +69,9 @@ apis:
     Enterprise, API Service Provider, Profiles, Portals
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins5-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins5-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/hostnameclientadmins5-delete-openapi.md
-- name: 3scale
-  x-api-slug: 3scale
-  description: 3scales API Management platform gives you the tools you need to take
-    control of your API. Trusted by more customers than any other vendor.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
-  humanURL: http://3scale.net
-  baseURL: https://http://
-  tags: Allows
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/openapi.md
-- name: 3Scale Account Management API
-  x-api-slug: 3scale-account-management-api
-  description: 3scales API Management platform gives you the tools you need to take
-    control of your API. Trusted by more customers than any other vendor.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
-  humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net//
-  tags: Allows
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/openapi.md
-- name: 3Scale Analytics API
-  x-api-slug: 3scale-analytics-api
-  description: 3scales API Management platform gives you the tools you need to take
-    control of your API. Trusted by more customers than any other vendor.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
-  humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net//
-  tags: Allows
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/openapi.md
-- name: 3Scale Billing API
-  x-api-slug: 3scale-billing-api
-  description: 3scales API Management platform gives you the tools you need to take
-    control of your API. Trusted by more customers than any other vendor.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
-  humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net//
-  tags: Allows
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/openapi.md
-- name: 3scale Service Management API
-  x-api-slug: 3scale-service-management-api
-  description: 3scales API Management platform gives you the tools you need to take
-    control of your API. Trusted by more customers than any other vendor.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
-  humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net//
-  tags: Allows
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/3scale/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://3scale.api.gallery.streamdata.io

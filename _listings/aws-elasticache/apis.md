@@ -20,9 +20,11 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amazon ElastiCache API
-  x-api-slug: amazon-elasticache-api
-  description: ""
+- name: AWS ElastiCache API - Purchase Reserved Cache Nodes Offering
+  x-api-slug: actionpurchasereservedcachenodesoffering-get
+  description: |-
+    Allows you to purchase a reserved
+                cache node offering.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
   humanURL: https://aws.amazon.com/elasticache/
   baseURL: :///
@@ -30,27 +32,15 @@ apis:
     Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionauthorizecachesecuritygroupingress-get-openapi.md
-- name: Amazon ElastiCache API
-  x-api-slug: amazon-elasticache-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
-  humanURL: https://aws.amazon.com/elasticache/
-  baseURL: :///
-  tags: Amazon Web Services, Cache, Stack Network, Performance, Availability, API
-    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
-    Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionauthorizecachesecuritygroupingress-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-openapi.md
-- name: Amazon ElastiCache API
-  x-api-slug: amazon-elasticache-api
-  description: ""
+- name: AWS ElastiCache API - List Allowed Node Type Modifications
+  x-api-slug: actionlistallowednodetypemodifications-get
+  description: |-
+    Lists all available node types that you
+                can scale your Redis cluster's or replication group's current node type up to.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
   humanURL: https://aws.amazon.com/elasticache/
   baseURL: :///
@@ -58,39 +48,15 @@ apis:
     Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionauthorizecachesecuritygroupingress-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionauthorizecachesecuritygroupingress-get-openapi.md
-- name: Amazon ElastiCache API
-  x-api-slug: amazon-elasticache-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
-  humanURL: https://aws.amazon.com/elasticache/
-  baseURL: :///
-  tags: Amazon Web Services, Cache, Stack Network, Performance, Availability, API
-    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
-    Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionauthorizecachesecuritygroupingress-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionauthorizecachesecuritygroupingress-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionlistallowednodetypemodifications-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionlistallowednodetypemodifications-get-openapi.md
-- name: Amazon ElastiCache API
-  x-api-slug: amazon-elasticache-api
-  description: ""
+- name: AWS ElastiCache API - Purchase Reserved Cache Nodes Offering
+  x-api-slug: actionpurchasereservedcachenodesoffering-get
+  description: |-
+    Allows you to purchase a reserved
+                cache node offering.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
   humanURL: https://aws.amazon.com/elasticache/
   baseURL: :///
@@ -98,23 +64,15 @@ apis:
     Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionauthorizecachesecuritygroupingress-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionauthorizecachesecuritygroupingress-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionlistallowednodetypemodifications-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionlistallowednodetypemodifications-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-openapi.md
-- name: Amazon ElastiCache API
-  x-api-slug: amazon-elasticache-api
-  description: ""
+- name: AWS ElastiCache API - List Allowed Node Type Modifications
+  x-api-slug: actionlistallowednodetypemodifications-get
+  description: |-
+    Lists all available node types that you
+                can scale your Redis cluster's or replication group's current node type up to.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
   humanURL: https://aws.amazon.com/elasticache/
   baseURL: :///
@@ -122,41 +80,10 @@ apis:
     Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionauthorizecachesecuritygroupingress-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionauthorizecachesecuritygroupingress-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionlistallowednodetypemodifications-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionlistallowednodetypemodifications-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionlistallowednodetypemodifications-get-openapi.md
-- name: Amazon ElastiCache API
-  x-api-slug: amazon-elasticache-api
-  description: Amazon ElastiCache is a web service that makes it easy to deploy, operate,
-    and scale an in-memory data store or cache in the cloud. The service improves
-    the performance of web applications by allowing you to retrieve information from
-    fast, managed, in-memory data stores, instead of relying entirely on slower disk-based
-    databases. Amazon ElastiCache automatically detects and replaces failed nodes,
-    reducing the overhead associated with self-managed infrastructures and provides
-    a resilient system that mitigates the risk of overloaded databases, which slow
-    website and application load times. Through integration with Amazon CloudWatch,
-    Amazon ElastiCache provides enhanced visibility into key performance metrics associated
-    with your Redis or Memcached nodes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
-  humanURL: https://aws.amazon.com/elasticache/
-  baseURL: :///
-  tags: Allows
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.elastic.mapreduce.api.gallery.streamdata.io
