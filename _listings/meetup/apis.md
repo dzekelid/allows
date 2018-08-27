@@ -7,11 +7,73 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetu
 x-kinRank: "9"
 x-alexaRank: "917"
 tags: Allows
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/meetup/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Meetup - Group Edit
+  x-api-slug: urlname-post
+  description: Allows organizers to edit their Meetup group information. To change
+    group topics, see the [add](/meetup_api/docs/:urlname/topics/#add) and [remove](/meetup_api/docs/:urlname/topics/#remove)
+    topics endpoints. To change group photo use the [Group photo upload](/meetup_api/docs/2/group_photo/#create)
+    endpoint. OAuth authenticated requests require an additional [group_edit](/meetup_api/auth/#oauth2-scopes)
+    permission.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/meetup/urlname-post-openapi.md
+- name: Meetup - Event Payments
+  x-api-slug: urlnameeventsidpayments-post
+  description: Allows organizers of a group to note payments made by members for an
+    event. This is the 'Mark Paid' feature seen in the RSVP listings on event details
+    pages and affects the 'pay_status' response fields in [2/rsvps](/meetup_api/docs/2/rsvps/#response)
+    for paid events
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/meetup/urlnameeventsidpayments-post-openapi.md
+- name: Meetup - Group Edit
+  x-api-slug: urlname-post
+  description: Allows organizers to edit their Meetup group information. To change
+    group topics, see the [add](/meetup_api/docs/:urlname/topics/#add) and [remove](/meetup_api/docs/:urlname/topics/#remove)
+    topics endpoints. To change group photo use the [Group photo upload](/meetup_api/docs/2/group_photo/#create)
+    endpoint. OAuth authenticated requests require an additional [group_edit](/meetup_api/auth/#oauth2-scopes)
+    permission.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/meetup/urlname-post-openapi.md
+- name: Meetup - Event Payments
+  x-api-slug: urlnameeventsidpayments-post
+  description: Allows organizers of a group to note payments made by members for an
+    event. This is the 'Mark Paid' feature seen in the RSVP listings on event details
+    pages and affects the 'pay_status' response fields in [2/rsvps](/meetup_api/docs/2/rsvps/#response)
+    for paid events
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/meetup/urlnameeventsidpayments-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://medium.api.gallery.streamdata.io

@@ -15,11 +15,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Allows
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS ElastiCache API - Authorize Cache Security Group Ingress
+  x-api-slug: actionauthorizecachesecuritygroupingress-get
+  description: |-
+    Allows network ingress to a cache
+                security group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
+  humanURL: https://aws.amazon.com/elasticache/
+  baseURL: :///
+  tags: Amazon Web Services, Cache, Stack Network, Performance, Availability, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionauthorizecachesecuritygroupingress-get-openapi.md
 - name: AWS ElastiCache API - Purchase Reserved Cache Nodes Offering
   x-api-slug: actionpurchasereservedcachenodesoffering-get
   description: |-
@@ -36,6 +50,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionpurchasereservedcachenodesoffering-get-openapi.md
+- name: AWS ElastiCache API - Authorize Cache Security Group Ingress
+  x-api-slug: actionauthorizecachesecuritygroupingress-get
+  description: |-
+    Allows network ingress to a cache
+                security group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
+  humanURL: https://aws.amazon.com/elasticache/
+  baseURL: :///
+  tags: Amazon Web Services, Cache, Stack Network, Performance, Availability, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/allows/master/_listings/aws-elasticache/actionauthorizecachesecuritygroupingress-get-openapi.md
 - name: AWS ElastiCache API - List Allowed Node Type Modifications
   x-api-slug: actionlistallowednodetypemodifications-get
   description: |-
